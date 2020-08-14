@@ -16,7 +16,7 @@ public class SpringbootDockerApplication {
 	
 	@GetMapping("/name")
 	public String getName() {
-		return "VEMAREDDY SAJJALA";
+		return "VEMAREDDY SAJJALA, NAGIREDDY SAJJALA";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootDockerApplication.class, args);
